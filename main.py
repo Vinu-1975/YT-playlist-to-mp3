@@ -1,7 +1,7 @@
 from pytube import Playlist,YouTube
 from moviepy.editor import AudioFileClip
 
-p = Playlist('https://www.youtube.com/playlist?list=PLfPsb_5VpqQOHzTJuROx_4jLMou5TOccW')
+p = Playlist('PASTER_UR_PLAYLIST_LINK_HERE')
 
 print(f'Downloading: {p.title}')
 # print(p.videos)
